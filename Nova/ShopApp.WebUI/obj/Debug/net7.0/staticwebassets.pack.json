@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\0d28f413-9446-421f-8b68-4dc7c44696c8.jpeg",
+      "PackagePath": "staticwebassets\\img\\0d28f413-9446-421f-8b68-4dc7c44696c8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\1dd4d5c0-634e-48df-9f9e-abb328a3bc57.jpg",
+      "PackagePath": "staticwebassets\\img\\1dd4d5c0-634e-48df-9f9e-abb328a3bc57.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\2bef18c9-db7b-4bef-833f-1fa44214a241.jpeg",
+      "PackagePath": "staticwebassets\\img\\2bef18c9-db7b-4bef-833f-1fa44214a241.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\2bf8a752-2ddb-4358-b324-3094f5b7da24.jpeg",
+      "PackagePath": "staticwebassets\\img\\2bf8a752-2ddb-4358-b324-3094f5b7da24.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\2fbe49bf-fd38-4394-8868-2354a917e2a0.jpeg",
+      "PackagePath": "staticwebassets\\img\\2fbe49bf-fd38-4394-8868-2354a917e2a0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\315b174d-99de-4cc7-bae8-b922aeb91ca0.jpg",
+      "PackagePath": "staticwebassets\\img\\315b174d-99de-4cc7-bae8-b922aeb91ca0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\73fa4850-abc4-4459-91c5-01822137021a.jpg",
+      "PackagePath": "staticwebassets\\img\\73fa4850-abc4-4459-91c5-01822137021a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\76e49f93-ce0f-4065-aef7-f24a2fa68a66.jpg",
+      "PackagePath": "staticwebassets\\img\\76e49f93-ce0f-4065-aef7-f24a2fa68a66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\9ff17511-044c-4c03-a4e0-eb62a37c1d79.jpg",
+      "PackagePath": "staticwebassets\\img\\9ff17511-044c-4c03-a4e0-eb62a37c1d79.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\a1a53812-4b72-4f51-be6c-bb0e3705995d.jpeg",
+      "PackagePath": "staticwebassets\\img\\a1a53812-4b72-4f51-be6c-bb0e3705995d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\b23dd8d6-970d-4250-a628-4ee0ef97f506.jpeg",
+      "PackagePath": "staticwebassets\\img\\b23dd8d6-970d-4250-a628-4ee0ef97f506.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\c78738ed-fcb8-496d-a593-576c53f27a45.jpg",
+      "PackagePath": "staticwebassets\\img\\c78738ed-fcb8-496d-a593-576c53f27a45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\d1e56a1f-60e0-4768-8ecd-8815cab9728d.jpeg",
+      "PackagePath": "staticwebassets\\img\\d1e56a1f-60e0-4768-8ecd-8815cab9728d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\dd604c6d-2ffa-46ff-8fba-2559c3d83d13.webp",
+      "PackagePath": "staticwebassets\\img\\dd604c6d-2ffa-46ff-8fba-2559c3d83d13.webp"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\fb7250a3-4fa1-46d1-a492-7c355154613e.jpg",
+      "PackagePath": "staticwebassets\\img\\fb7250a3-4fa1-46d1-a492-7c355154613e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\hali3.webp",
+      "PackagePath": "staticwebassets\\img\\hali3.webp"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\hali4.jpg",
+      "PackagePath": "staticwebassets\\img\\hali4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\hali4.webp",
+      "PackagePath": "staticwebassets\\img\\hali4.webp"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\hali5.jpeg",
+      "PackagePath": "staticwebassets\\img\\hali5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\ShopApp.WebUI\\wwwroot\\img\\hali6.jpg",
+      "PackagePath": "staticwebassets\\img\\hali6.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ShopApp.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ShopApp.WebUI.props",
+      "PackagePath": "build\\ShopApp.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ShopApp.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\ShopApp.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ShopApp.WebUI.props",
+      "PackagePath": "buildTransitive\\ShopApp.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
