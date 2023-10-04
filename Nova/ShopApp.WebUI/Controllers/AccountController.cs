@@ -154,7 +154,7 @@ namespace ShopApp.WebUI.Controllers
             });
             return View();
         }
-        public IActionResult ForgotPassword()
+        public IActionResult ForgotPassword()//parola sıfırlama işleminin başlamasını sağlar.
         {
             return View();
         }

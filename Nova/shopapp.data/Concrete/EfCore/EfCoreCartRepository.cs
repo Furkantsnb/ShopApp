@@ -24,7 +24,7 @@ namespace shopapp.data.Concrete.EfCore
             
         }
 
-        public void DeleteFromCart(int cartId, int productId)
+            public void DeleteFromCart(int cartId, int productId)
         {
             
                
@@ -37,10 +37,10 @@ namespace shopapp.data.Concrete.EfCore
         {
             
                 return ShopContext.Carts
-                            .Include(i => i.CartItems)
+                            .Include(i => i.CartItems)//sepet nesnesine bağlı cartıtems getirir.
                             .ThenInclude(i => i.Product)
-                            .FirstOrDefault(i => i.UserId == userId);
-            
+                            .FirstOrDefault(i => i.UserId == userId);// UserId parametresine eşit olan ilk sepet nesnesini döndürü
+
         }
 
         public override void Update(Cart entity)

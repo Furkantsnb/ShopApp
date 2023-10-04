@@ -17,37 +17,37 @@ namespace shopapp.business.Concrete
 
         public string ErrorMessage { get => throw new System.NotImplementedException(); set => throw new System.NotImplementedException(); }
 
-        public void Create(Category entity)
+        public void Create(Category entity) // yeni bir kategoriy nesnesi oluşturmak için kullanılır.
         {
             _categoryRepository.Create(entity);
         }
 
-        public void Delete(Category entity)
+        public void Delete(Category entity)// varolan bir kategoriyi silmek için kullanılır.
         {
             _categoryRepository.Delete(entity);
         }
 
-        public void DeleteFromCategory(int productId, int categoryId)
+        public void DeleteFromCategory(int productId, int categoryId)//bir ürünü(productId) bir kategoriden(categoryId) çıkarmak için kullanılır. 
         {
             _categoryRepository.DeleteFromCategory(productId, categoryId);
         }
 
-        public List<Category> GetAll()
+        public List<Category> GetAll() // tüm kategorileri getirmek için kullanır.
         {
             return _categoryRepository.GetAll();
         }
 
-        public Category GetById(int id)
+        public Category GetById(int id)//belirli bir kimliğe sahip olan kategoriyi getirmek için kullanılır.
         {
             return _categoryRepository.GetById(id);
         }
 
-        public Category GetByIdWithProducts(int categoryId)
+        public Category GetByIdWithProducts(int categoryId)// belirli bir kimliğe sahip olan kategoriyi ve bu kategoriye ait olan ürünleri getirmek için kullanılır. 
         {
             return _categoryRepository.GetByIdWithProducts(categoryId);
         }
 
-        public void Update(Category entity)
+        public void Update(Category entity)//varolan bir kategoriyi güncellemek için kullanılır
         {
             _categoryRepository.Update(entity);
         }

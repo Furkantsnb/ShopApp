@@ -24,7 +24,7 @@ namespace shopapp.business.Concrete
             _orderRepository.Create(entity);
         }
 
-        public List<Order> GetOrders(string userId)
+        public List<Order> GetOrders(string userId)//kullanıcı ıd göre siparişlerini liste halinde getirir.
         {
             return _orderRepository.GetOrders(userId);
         }

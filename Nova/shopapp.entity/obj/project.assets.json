@@ -2893,11 +2893,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\shopapp.entity\\shopapp.entity.csproj",
+      "projectUniqueName": "C:\\Users\\furka\\Documents\\GitHub\\ShopApp\\Nova\\shopapp.entity\\shopapp.entity.csproj",
       "projectName": "shopapp.entity",
-      "projectPath": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\shopapp.entity\\shopapp.entity.csproj",
+      "projectPath": "C:\\Users\\furka\\Documents\\GitHub\\ShopApp\\Nova\\shopapp.entity\\shopapp.entity.csproj",
       "packagesPath": "C:\\Users\\furka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\shopapp.entity\\obj\\",
+      "outputPath": "C:\\Users\\furka\\Documents\\GitHub\\ShopApp\\Nova\\shopapp.entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",

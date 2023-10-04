@@ -19,8 +19,8 @@ namespace shopapp.data.Concrete.EfCore
             //ExecuteSqlRaw yöntemi, SQL sorgusunu doğrudan veritabanına iletmek için kullanılır. Bu sorgu, productId ve categoryId
             //parametreleriyle birlikte çalışır. Ancak, SQL sorgusu olması gereken yerine Entity Framework Core ile LINQ kullanılarak da gerçekleştirilebilirdi.
 
-            ShopContext.Database.ExecuteSqlRaw(cmd, productId, categoryId); 
-            
+            ShopContext.Database.ExecuteSqlRaw(cmd, productId, categoryId);
+
         }
 
         public Category GetByIdWithProducts(int categoryId)

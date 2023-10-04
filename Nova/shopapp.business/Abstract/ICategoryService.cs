@@ -4,11 +4,11 @@ namespace shopapp.business.Abstract
 {
     public interface ICategoryService: IValidator<Category>
     {
-        Category GetById(int id);
+        Category GetById(int id);//Kimliğe göre al
 
         Category GetByIdWithProducts(int categoryId);// kategori id ürünlerine göre almak
 
-        List<Category> GetAll(); 
+        List<Category> GetAll(); //Hepsini al
 
         void Create(Category entity);//oluşturmak
 

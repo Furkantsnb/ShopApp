@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace shopapp.business.Abstract
 {
-    public interface IOrderService
+    public interface IOrderService//sipariş hizmeti
     {
         void Create(Order entity);
-        List<Order> GetOrders(string userId);
+        List<Order> GetOrders(string userId);//Sipariş al
     }
 }

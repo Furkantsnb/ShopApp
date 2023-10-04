@@ -32,13 +32,13 @@
                 }
             }
         </ul>
-
+        @*account/manage*@
         <ul class="navbar-nav ml-auto">
 
             @if (User.Identity.IsAuthenticated)
             {
                 <li class="nav-item">
-                    <a href="/account/manage" class="nav-link">
+                    <a href="/" class="nav-link">
                         @User.Identity.Name
                     </a>
                 </li>

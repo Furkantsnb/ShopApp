@@ -12,6 +12,7 @@ using ShopApp.WebUI.Identity;
 namespace ShopApp.WebUI.Controllers
 {
     [Authorize(Roles = "admin")]
+   
     public class AdminController : Controller
     {
         private IProductService _productService;

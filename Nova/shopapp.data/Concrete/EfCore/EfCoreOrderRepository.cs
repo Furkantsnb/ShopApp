@@ -21,15 +21,15 @@ namespace shopapp.data.Concrete.EfCore
         public List<Order> GetOrders(string userId)
         {
            
-                var orders = ShopContext.Orders
-                    .Include(i => i.OrderItems)
-                    .ThenInclude(i => i.Product)
-                    .AsQueryable();
+                var orders = ShopContext.Orders// tüm sipariş nesnelerini getirir
+                    .Include(i => i.OrderItems)//sipariş nesnelerine bağlı olan OrderItems
+                    .ThenInclude(i => i.Product)// ve Product nesnelerini de getirir.
+                    .AsQueryable();// koleksiyonu bir sorgu olarak dönüştürür.
 
-                if(!string.IsNullOrEmpty(userId))
+            if (!string.IsNullOrEmpty(userId))
                 {
-                    orders = orders.Where(i => i.UserId == userId);
-                }
+                    orders = orders.Where(i => i.UserId == userId);//userId parametresine eşit olan siparişleri filtreler.
+            }
                 return orders.ToList();
             
         }

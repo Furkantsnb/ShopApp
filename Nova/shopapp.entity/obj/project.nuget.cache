@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BDJVO1MF833jvvYfnS47DofxvlUF1PCVmR+9n/0F6PxBvLjJuYhtF+3DqN/9zNEuLzpvumfN3kmGWN4xZE3x9A==",
+  "dgSpecHash": "9LVVfRN3ctLS3owwQkH7YySv/7SCKuKDIa4q86qnlFC3ya/bEHv9PFBGhJ/sJkVK96mCQf4R7TyFLHHjDJkwZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\furka\\Desktop\\c# projelerim\\Nova\\shopapp.entity\\shopapp.entity.csproj",
+  "projectFilePath": "C:\\Users\\furka\\Documents\\GitHub\\ShopApp\\Nova\\shopapp.entity\\shopapp.entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furka\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\furka\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

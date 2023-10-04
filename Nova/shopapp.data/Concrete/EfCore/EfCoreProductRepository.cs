@@ -7,7 +7,7 @@ using shopapp.entity;
 namespace shopapp.data.Concrete.EfCore
 {
     public class EfCoreProductRepository : EfCoreGenericRepository<Product>, IProductRepository
-    {//neden using kullanmısızz araştır.
+    {
 
         public EfCoreProductRepository(ShopContext context) : base(context)
         { 
@@ -21,14 +21,13 @@ namespace shopapp.data.Concrete.EfCore
            
                 return ShopContext.Products
                                 .Where(i => i.ProductId == id)
-                                .Include(i => i.ProductCategories) //bu iki satır arasındaki fark nedir. neden then ınclude kullanmış
-                                .ThenInclude(i => i.Category)
+                                .Include(i => i.ProductCategories) 
                                 .FirstOrDefault(); // birden fazla eleman varsa ilk bulunan elamanı döndürür.       
                              // .SingleOrDefault(); //sorgu sonucunda yalnız bir eleman varsa bu elemanı döndürür. hiç yoksa ve birden fazla ise hata fırlatır.
             
         }
 
-        public int GetCountByCategory(string category) //out keywordune baksan iyi olur
+        public int GetCountByCategory(string category) 
         {
             
                 var products = ShopContext.Products.Where(i => i.IsApproved).AsQueryable();
@@ -64,7 +63,6 @@ namespace shopapp.data.Concrete.EfCore
         }
         public List<Product> GetProductsByCategory(string name, int page, int pageSize)
         {
-            
                 var products = ShopContext
                     .Products
                     .Where(i => i.IsApproved)
@@ -78,7 +76,7 @@ namespace shopapp.data.Concrete.EfCore
                                     .Where(i => i.ProductCategories.Any(a => a.Category.Url == name));
                 }
 
-                return products.Skip((page - 1) * pageSize).Take(pageSize).ToList(); 
+                return products.Skip((page - 1) * pageSize).Take(pageSize).ToList(); //skip atlama, take alma
             
         }
         public List<Product> GetSearchResult(string searchString)
@@ -87,7 +85,7 @@ namespace shopapp.data.Concrete.EfCore
                 var products = ShopContext
                     .Products
                     .Where(i => i.IsApproved && (i.Name.ToLower().Contains(searchString.ToLower()) || i.Description.ToLower().Contains(searchString.ToLower())))
-                    .AsQueryable(); //queryable ve containse bak !!
+                    .AsQueryable(); //koleksiyonu bir sorgu olarak dönüştürür.
 
                 return products.ToList();
             
@@ -98,11 +96,11 @@ namespace shopapp.data.Concrete.EfCore
             
                 var product = ShopContext.Products
                                     .Include(i => i.ProductCategories)
-                                    .FirstOrDefault(i => i.ProductId == entity.ProductId);
+                                    .FirstOrDefault(i => i.ProductId == entity.ProductId);//ilk ürünü getirir
 
 
-                if (product != null) //objectmapper.Map<Product, Entity>(product, entity);
-                { // automapper (mappleme)
+                if (product != null) 
+                { 
                     product.Name = entity.Name;
                     product.Price = entity.Price;
                     product.Description = entity.Description;

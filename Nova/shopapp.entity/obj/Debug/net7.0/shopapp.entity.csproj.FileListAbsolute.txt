@@ -12,3 +12,17 @@ C:\Users\furka\Desktop\c# projelerim\Nova\shopapp.entity\obj\Debug\net7.0\refint
 C:\Users\furka\Desktop\c# projelerim\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.pdb
 C:\Users\furka\Desktop\c# projelerim\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.genruntimeconfig.cache
 C:\Users\furka\Desktop\c# projelerim\Nova\shopapp.entity\obj\Debug\net7.0\ref\shopapp.entity.dll
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\bin\Debug\net7.0\shopapp.entity.deps.json
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\bin\Debug\net7.0\shopapp.entity.runtimeconfig.json
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\bin\Debug\net7.0\shopapp.entity.dll
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\bin\Debug\net7.0\shopapp.entity.pdb
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.csproj.AssemblyReference.cache
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.AssemblyInfoInputs.cache
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.AssemblyInfo.cs
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.csproj.CoreCompileInputs.cache
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.dll
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\refint\shopapp.entity.dll
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.pdb
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\shopapp.entity.genruntimeconfig.cache
+C:\Users\furka\Documents\GitHub\ShopApp\Nova\shopapp.entity\obj\Debug\net7.0\ref\shopapp.entity.dll

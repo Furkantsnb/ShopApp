@@ -35,8 +35,7 @@ namespace shopapp.data.Concrete.EfCore
             modelBuilder.Entity<ProductCategory>()
                 .HasKey(c => new { c.CategoryId, c.ProductId });
 
-            //örnekleri yap aliştirma olsun diye
-            //burada coka cok ilişk olmaıs lazım ama olmamış. fluent api kullanımına önem versek iyi olur
+           
         }
     }
 }
